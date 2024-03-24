@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Tehtava1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD17E270-82CA-467C-9D6C-3580E05AE1FE}|Tehtava1-2\\Tehtava1-2.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Tehtava1\\Tehtava1-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FD17E270-82CA-467C-9D6C-3580E05AE1FE}|Tehtava1-2\\Tehtava1-2.vcxproj|solutionrelative:Tehtava1-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{874D5AAB-CADD-4F30-8FA1-4FD4FDE1ADD4}|Tehtava1-3\\Tehtava1-3.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Tehtava1\\Tehtava1-3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{874D5AAB-CADD-4F30-8FA1-4FD4FDE1ADD4}|Tehtava1-3\\Tehtava1-3.vcxproj|solutionrelative:Tehtava1-3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,13 +32,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Tehtava1\\Tehtava1-2\\main.cpp",
-              "RelativeDocumentMoniker": "Tehtava1-2\\main.cpp",
-              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Tehtava1\\Tehtava1-2\\main.cpp",
-              "RelativeToolTip": "Tehtava1-2\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Tehtava1\\Tehtava1-3\\main.cpp",
+              "RelativeDocumentMoniker": "Tehtava1-3\\main.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Tehtava1\\Tehtava1-3\\main.cpp",
+              "RelativeToolTip": "Tehtava1-3\\main.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-23T15:50:44.698Z",
+              "WhenOpened": "2024-03-24T09:39:30.401Z",
               "EditorCaption": ""
             }
           ]

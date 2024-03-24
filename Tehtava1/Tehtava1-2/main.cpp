@@ -2,74 +2,78 @@
 #include <thread>
 #include <mutex>
 
-std::mutex mtx; // Mutex for protecting the account
+std::mutex mtx; // Mutex for critical section (protecting the account)
 
 class BankAccount
 {
 private:
-    int balance;
+    int _balance;
 
 public:
-    BankAccount() : balance(0) {}
+    BankAccount()
+    {
+        _balance = 0;
+    }
 
     void deposit(int amount)
     {
-        std::lock_guard<std::mutex> lock(mtx); // Lukituksen automaattinen hallinta
-        balance += amount;
+        std::lock_guard<std::mutex> lock(mtx);
+        _balance += amount;
     }
 
     void withdraw(int amount)
     {
-        std::lock_guard<std::mutex> lock(mtx); // Lukituksen automaattinen hallinta
-        balance -= amount;
+        std::lock_guard<std::mutex> lock(mtx);
+        _balance -= amount;
     }
 
-    int getBalance() const
+    int getBalance()
     {
-        return balance;
+        return _balance;
     }
 };
 
-void depositMoney(BankAccount& account, int amount, int transactions)
+void depositMoney(BankAccount* account, int amount, int transactions)
 {
-    for (int i = 0; i < transactions; ++i)
+    for (int i = 0; i < transactions; i++)
     {
-        account.deposit(amount);
+        account->deposit(amount);
     }
 }
 
-void withdrawMoney(BankAccount& account, int amount, int transactions)
+void withdrawMoney(BankAccount* account, int amount, int transactions)
 {
-    for (int i = 0; i < transactions; ++i)
+    for (int i = 0; i < transactions; i++)
     {
-        account.withdraw(amount);
+        account->withdraw(amount);
     }
 }
 
 int main()
 {
     BankAccount account;
-    const int transactions = 1000;
+    const int transactions = 10000;
     const int depositAmount = 100;
     const int withdrawAmount = 50;
 
-    // Luodaan s‰ikeet
-    std::thread depositThread(depositMoney, std::ref(account), depositAmount, transactions);
-    std::thread withdrawThread(withdrawMoney, std::ref(account), withdrawAmount, transactions);
+    // Creating the threads
+    std::thread depositThread(depositMoney, &account, depositAmount, transactions);
+    std::thread withdrawThread(withdrawMoney, &account, withdrawAmount, transactions);
 
-    // Odota s‰ikeiden p‰‰ttymist‰
+    // Waiting for the completion of the threads
     depositThread.join();
     withdrawThread.join();
 
-    // Tarkista tilin saldo
+    // Checking the balance of the account
+    int calculatedBalance = transactions * depositAmount - transactions * withdrawAmount;
     int finalBalance = account.getBalance();
-    if (finalBalance != (transactions * depositAmount - transactions * withdrawAmount))
+    if (finalBalance != calculatedBalance)
     {
-        std::cout << "Tilin saldo on virheellinen: " << finalBalance << std::endl;
+        std::cout << "The balance of the account is not correct: " << finalBalance << std::endl;
     }
     else
     {
-        std::cout << "Tilin saldo on oikea: " << finalBalance << std::endl;
+        std::cout << "The balance of the account is correct: " << finalBalance << std::endl;
     }
 
     return 0;
