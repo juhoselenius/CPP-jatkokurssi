@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Tehtava2\Tehtava2-6\main.cpp(49,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Tehtava2-6.vcxproj -> D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Tehtava2\x64\Debug\Tehtava2-6.exe
