@@ -1,105 +1,172 @@
-/*
-* Copyright (c) 2006-2007 Erin Catto http://www.box2d.org
-*
-* This software is provided 'as-is', without any express or implied
-* warranty.  In no event will the authors be held liable for any damages
-* arising from the use of this software.
-* Permission is granted to anyone to use this software for any purpose,
-* including commercial applications, and to alter it and redistribute it
-* freely, subject to the following restrictions:
-* 1. The origin of this software must not be misrepresented; you must not
-* claim that you wrote the original software. If you use this software
-* in a product, an acknowledgment in the product documentation would be
-* appreciated but is not required.
-* 2. Altered source versions must be plainly marked as such, and must not be
-* misrepresented as being the original software.
-* 3. This notice may not be removed or altered from any source distribution.
-*/
-
 #include <Box2D.h>
+#include <SDL.h>
+#include <iostream>
 
-#include <stdio.h>
+b2World* world;
 
-// This is a simple example of building and running a simulation
-// using Box2D. Here we create a large ground box and a small dynamic
-// box.
-// There are no graphics for this example. Box2D is meant to be used
-// with your rendering engine in your game engine.
+const int SCREEN_WIDTH = 640;
+const int SCREEN_HEIGHT = 480;
+
+const float BOX_WIDTH = 40.0f;
+const float BOX_HEIGHT = 40.0f;
+
+const float BOX_START_X = 320.0f;
+const float BOX_START_Y = 1.0f;
+
+const double deltaTime = 1.0 / 60.0;
+
 int main(int argc, char** argv)
 {
-	B2_NOT_USED(argc);
-	B2_NOT_USED(argv);
+    // Try to initialize SDL
+    if (SDL_Init(SDL_INIT_VIDEO) < 0)
+    {
+        std::cout << "Failed to initialize the SDL2 library\n";
+        return -1;
+    }
 
-	// Define the gravity vector.
-	b2Vec2 gravity(0.0f, -10.0f);
+    // Create a window
+    SDL_Window* window = SDL_CreateWindow("Miniprojekti4",
+        SDL_WINDOWPOS_CENTERED,
+        SDL_WINDOWPOS_CENTERED,
+        680, 480,
+        0);
 
-	// Construct a world object, which will hold and simulate the rigid bodies.
-	b2World world(gravity);
+    // If the window failed to be created
+    if (!window)
+    {
+        std::cout << "Failed to create window\n";
+        return -1;
+    }
 
-	// Define the ground body.
-	b2BodyDef groundBodyDef;
-	groundBodyDef.position.Set(0.0f, -10.0f);
+    // Get the surface of the window
+    SDL_Surface* window_surface = SDL_GetWindowSurface(window);
 
-	// Call the body factory which allocates memory for the ground body
-	// from a pool and creates the ground box shape (also from a pool).
-	// The body is also added to the world.
-	b2Body* groundBody = world.CreateBody(&groundBodyDef);
+    // If the surface failed to be created
+    if (!window_surface)
+    {
+        std::cout << "Failed to get the surface from the window\n";
+        return -1;
+    }
 
-	// Define the ground box shape.
-	b2PolygonShape groundBox;
+    // Define the gravity vector.
+    b2Vec2 gravity(0.0f, 9.81f);
 
-	// The extents are the half-widths of the box.
-	groundBox.SetAsBox(50.0f, 10.0f);
+    // Construct a world object, which will hold and simulate the rigid bodies.
+    world = new b2World(gravity);
 
-	// Add the ground fixture to the ground body.
-	groundBody->CreateFixture(&groundBox, 0.0f);
+    //// Ground
 
-	// Define the dynamic body. We set its position and call the body factory.
-	b2BodyDef bodyDef;
-	bodyDef.type = b2_dynamicBody;
-	bodyDef.position.Set(0.0f, 4.0f);
-	b2Body* body = world.CreateBody(&bodyDef);
+    // Define the ground body.
+    SDL_Rect groundRect;
+    b2BodyDef groundBodyDef;
+    groundBodyDef.position.Set(0.0f, 400.0f);
+    b2Body* groundBody = world->CreateBody(&groundBodyDef);
 
-	// Define another box shape for our dynamic body.
-	b2PolygonShape dynamicBox;
-	dynamicBox.SetAsBox(1.0f, 1.0f);
+    // Define the ground box shape.
+    b2PolygonShape groundBox;
+    groundBox.SetAsBox(SCREEN_WIDTH, 10.0f);
 
-	// Define the dynamic body fixture.
-	b2FixtureDef fixtureDef;
-	fixtureDef.shape = &dynamicBox;
+    // Add the ground fixture to the ground body.
+    groundBody->CreateFixture(&groundBox, 0.0f);
 
-	// Set the box density to be non-zero, so it will be dynamic.
-	fixtureDef.density = 1.0f;
+    // Setting up the visual representation of the ground
+    groundRect.x = 0;
+    groundRect.y = 400 + (10 / 2);
+    groundRect.w = SCREEN_WIDTH + 100;
+    groundRect.h = 10;
 
-	// Override the default friction.
-	fixtureDef.friction = 0.3f;
+    //// Box
 
-	// Add the shape to the body.
-	body->CreateFixture(&fixtureDef);
+    // Setting up the box sprite
+    SDL_Surface* boxSprite = SDL_LoadBMP("Box.bmp");
 
-	// Prepare for simulation. Typically we use a time step of 1/60 of a
-	// second (60Hz) and 10 iterations. This provides a high quality simulation
-	// in most game scenarios.
-	float timeStep = 1.0f / 60.0f;
-	int32 velocityIterations = 6;
-	int32 positionIterations = 2;
+    // If the image failed to load
+    if (!boxSprite)
+    {
+        std::cout << "Failed to load image\n";
+        std::cout << "SDL2 Error: " << SDL_GetError() << "\n";
+        return -1;
+    }
 
-	// This is our little game loop.
-	for (int32 i = 0; i < 60; ++i)
-	{
-		// Instruct the world to perform a single step of simulation.
-		// It is generally best to keep the time step and iterations fixed.
-		world.Step(timeStep, velocityIterations, positionIterations);
+    // Define the dynamic body. We set its position and call the body factory.
+    SDL_Rect box;
+    b2BodyDef boxBodyDef;
+    boxBodyDef.type = b2_dynamicBody;
+    boxBodyDef.position.Set(BOX_START_X, BOX_START_Y);
+    boxBodyDef.fixedRotation = false;
+    b2Body* boxBody = world->CreateBody(&boxBodyDef);
 
-		// Now print the position and angle of the body.
-		b2Vec2 position = body->GetPosition();
-		float angle = body->GetAngle();
+    // Define another box shape for our dynamic body.
+    b2PolygonShape dynamicBox;
+    dynamicBox.SetAsBox(BOX_WIDTH / 2, BOX_HEIGHT / 2);
 
-		printf("%4.2f %4.2f %4.2f\n", position.x, position.y, angle);
-	}
+    // Define the dynamic body fixture.
+    b2FixtureDef fixtureDef;
+    fixtureDef.shape = &dynamicBox;
 
-	// When the world destructor is called, all bodies and joints are freed. This can
-	// create orphaned pointers, so be careful about your world management.
+    // Set the box density to be non-zero, so it will be dynamic.
+    fixtureDef.density = 1.0f;
 
-	return 0;
+    // Override the default friction.
+    fixtureDef.friction = 0.3f;
+
+    // Override the default restitution.
+    fixtureDef.restitution = 0.5f;
+
+    // Add the shape to the body.
+    boxBody->CreateFixture(&fixtureDef);
+
+    // Setting up the visual representation of the box
+    box.x = 0;
+    box.y = 0;
+    box.w = (int)BOX_WIDTH;
+    box.h = (int)BOX_HEIGHT;
+
+    double image_x = 0;
+    double image_y = 0;
+
+    // Prepare the simulation
+    int velocityIterations = 6;
+    int positionIterations = 2;
+
+    // Game loop
+    bool quit = false;
+    while (!quit)
+    {
+        // Create an event and see if it needs to be processed
+        SDL_Event event;
+        while (SDL_PollEvent(&event) > 0)
+        {
+            // If the event is the quit event
+            if (event.type == SDL_QUIT)
+            {
+                quit = true;
+            }
+        }
+
+        // Update the box position and rotation
+        b2Vec2 boxPosition = boxBody->GetPosition();
+        float boxAngle = boxBody->GetAngle();
+        boxAngle *= 180 / b2_pi; // Convert to degrees
+        box.x = (int)boxPosition.x;
+        box.y = (int)boxPosition.y;
+
+
+        // Draw into the window
+        SDL_FillRect(window_surface, NULL, SDL_MapRGB(window_surface->format, 0, 0, 0)); // Clear the window with black color
+        SDL_FillRect(window_surface, &groundRect, SDL_MapRGB(window_surface->format, 0, 255, 0)); // Draw the ground with green color
+        SDL_BlitSurface(boxSprite, NULL, window_surface, &box); // Draw the box
+
+        SDL_UpdateWindowSurface(window);
+        world->Step(deltaTime, velocityIterations, positionIterations);
+    }
+
+    // box2D delete whole world and free memory
+    delete world;
+
+    SDL_FreeSurface(window_surface);
+    SDL_DestroyWindow(window);
+    SDL_Quit();
+
+    return 0;
 }
