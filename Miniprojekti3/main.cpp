@@ -123,7 +123,7 @@ int main()
 	clock_t t1, t2;
 	int i = 0;
 
-	populateLookupTables();
+	//populateLookupTables();
 
 	t1 = clock();
 	straights = 0;
@@ -149,14 +149,14 @@ int main()
 						k[2] = (k2 % 13) + 2;
 						k[3] = (k3 % 13) + 2;
 						k[4] = (k4 % 13) + 2;
-						if (is_straight2(k, i))
+						/*if (is_straight2(k, i))
 						{
 							++straights;
-						}
-						/*if (is_quadsorfullhouse2(k, i))
+						}*/
+						if (is_quadsorfullhouse(k))
 						{
 							++fourOrFull;
-						}*/
+						}
 						i++;
 					}
 				}
