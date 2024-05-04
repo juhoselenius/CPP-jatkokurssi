@@ -6,17 +6,14 @@ class Spritesheet
 {
 public:
 	Spritesheet() = default;
-	Spritesheet(const char* path, int row, int column);
+	Spritesheet(int column);
 	~Spritesheet();
 
-	void SelectSprite(int x, int y);
+	void SelectSprite(int spriteIndex);
 	void DrawSelectedSprite(SDL_Surface* windowSurface, SDL_Rect* position);
 
 private:
-	SDL_Rect m_clip;
-	SDL_Surface* m_spritesheetImage;
-
-	int m_startX;
-	int m_startY;
+	SDL_Rect m_clip; //!< The current player image to be drawn.
+	SDL_Surface* m_spritesheetImage; //!< The spritesheet image.
 };
 

@@ -1,22 +1,23 @@
 #include "Spritesheet.h"
 #include <iostream>
+#include <string>
 
-Spritesheet::Spritesheet(const char* path, int row, int column)
+Spritesheet::Spritesheet(int column)
 {
-	m_spritesheetImage = SDL_LoadBMP(path);
+	m_spritesheetImage = SDL_LoadBMP("sprites/Ghroth_spritesheet.bmp");
 
 	if (!m_spritesheetImage)
 	{
-		std::cout << "Failed to load image" << "\n";
-		std::cout << "SDL2 Error: " << SDL_GetError() << "\n";
+		std::cout << "Failed to load spritesheet" << "\n";
 		return;
 	}
 	else
 	{
-		m_clip.w = m_spritesheetImage->w / column;
-		m_clip.h = m_spritesheetImage->h / row;
-		std::cout << "Image loaded successfully." << "\n"; // Add this line
+		std::cout << "Spritesheet loaded successfully" << "\n";
 	}
+
+	m_clip.w = m_spritesheetImage->w / column;
+	m_clip.h = m_spritesheetImage->h;
 }
 
 Spritesheet::~Spritesheet()
@@ -24,20 +25,12 @@ Spritesheet::~Spritesheet()
 	SDL_FreeSurface(m_spritesheetImage);
 }
 
-void Spritesheet::SelectSprite(int x, int y)
+void Spritesheet::SelectSprite(int spriteIndex)
 {
-	m_clip.x = x * m_clip.w;
-	m_clip.y = y * m_clip.h;
+	m_clip.x = spriteIndex * m_clip.w;
 }
 
 void Spritesheet::DrawSelectedSprite(SDL_Surface* windowSurface, SDL_Rect* position)
 {
-	if (m_spritesheetImage != nullptr)
-	{
-		SDL_BlitSurface(m_spritesheetImage, &m_clip, windowSurface, position);
-	}
-	else
-	{
-		std::cout << "Failed to draw sprite" << "\n";
-	}
+	SDL_BlitSurface(m_spritesheetImage, &m_clip, windowSurface, position);
 }

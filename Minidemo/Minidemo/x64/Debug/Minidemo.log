@@ -3,81 +3,12 @@ D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat
 D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Application.cpp(30,9): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Application.cpp(108,19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   CollisionListener.cpp
-  Ground.cpp
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Ground.cpp(14,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Ground.cpp(15,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Ground.cpp(16,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Ground.cpp(17,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  main.cpp
-  Obstacle.cpp
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(22,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(23,55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(24,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(25,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(28,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(29,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(30,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(31,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(44,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(45,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(49,42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Obstacle.cpp(51,42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  ObstacleQueue.cpp
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\ObstacleQueue.cpp(8,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\ObstacleQueue.cpp(9,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\ObstacleQueue.cpp(15,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\ObstacleQueue.cpp(28,21): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
-D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\ObstacleQueue.cpp(67,20): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
   Player.cpp
 D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Player.cpp(33,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Player.cpp(34,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Player.cpp(45,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Player.cpp(55,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\Player.cpp(56,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Score.cpp
-  Spritesheet.cpp
+  main.cpp
   Generating Code...
-box2d.lib(b2_polygon_shape.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_polygon_shape.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_world.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_world.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_body.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_body.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_collision.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_collision.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_block_allocator.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_block_allocator.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_settings.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_settings.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_island.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_island.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_dynamic_tree.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_dynamic_tree.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_broad_phase.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_broad_phase.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_fixture.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_fixture.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_draw.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_draw.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_distance.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_distance.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_time_of_impact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_time_of_impact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_timer.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_timer.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_contact_manager.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_contact_manager.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_stack_allocator.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_stack_allocator.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_math.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_math.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_contact_solver.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_contact_solver.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_chain_circle_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_chain_circle_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_chain_polygon_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_chain_polygon_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_circle_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_circle_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_edge_circle_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_edge_circle_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_edge_polygon_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_edge_polygon_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_polygon_circle_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_polygon_circle_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_polygon_contact.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_polygon_contact.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_distance_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_distance_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_friction_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_friction_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_gear_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_gear_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_motor_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_motor_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_mouse_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_mouse_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_prismatic_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_prismatic_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_pulley_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_pulley_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_revolute_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_revolute_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_weld_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_weld_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_wheel_joint.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_wheel_joint.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_world_callbacks.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_world_callbacks.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_collide_edge.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_collide_edge.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_chain_shape.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_chain_shape.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_edge_shape.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_edge_shape.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_collide_circle.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_collide_circle.obj)' or at ''; linking object as if no debug info
-box2d.lib(b2_collide_polygon.obj) : warning LNK4099: PDB '' was not found with 'box2d.lib(b2_collide_polygon.obj)' or at ''; linking object as if no debug info
   Minidemo.vcxproj -> D:\JS\Koulu\Metropolia_ICT\Vuosi_3\CPlusPlusJatkokurssi\Tehtavat\Github_Tehtavat\CPP-jatkokurssi\Minidemo\x64\Debug\Minidemo.exe

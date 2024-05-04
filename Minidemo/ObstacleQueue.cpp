@@ -28,7 +28,7 @@ void ObstacleQueue::Update(double deltaTime)
 		m_lastSpawnTime = m_currentTime;
 	}
 
-	// Update the obstacles with a friggin lambda function
+	// Update the obstacles with a !!! lambda function !!!
 	std::for_each(m_obstacleQueue.begin(), m_obstacleQueue.end(), [&](Obstacle& it)
 		{
 			it.Update(deltaTime);

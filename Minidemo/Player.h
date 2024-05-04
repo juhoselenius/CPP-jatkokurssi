@@ -63,7 +63,7 @@ private:
 	int m_playerImageWidth = 60; //!< The width of the player image.
 	int m_playerImageHeight = 54; //!< The height of the player image.
 
-	int m_playerJumpStrength = -20; //!< The strength of the player's jump.
+	int m_playerJumpStrength = -15; //!< The strength of the player's jump.
 
 	b2World* m_world; //!< The Box2D physics world.
 

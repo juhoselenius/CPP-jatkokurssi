@@ -28,7 +28,7 @@ Player::Player(float screenWidth, float screenHeight, b2World* gameWorld)
     m_playerFixtureDef.userData.pointer = reinterpret_cast<uintptr_t>(this);
     m_playerBody->CreateFixture(&m_playerFixtureDef);
     
-    m_image = SDL_LoadBMP("Ghroth_10.bmp");
+    m_image = SDL_LoadBMP("sprites/Ghroth_10.bmp");
     
     m_imagePosition.x = m_initialPlayerPositionX - m_playerImageWidth * 0.5f;
     m_imagePosition.y = m_initialPlayerPositionY - m_playerImageHeight * 0.5f;

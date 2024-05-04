@@ -6,6 +6,7 @@
 #include "Ground.h"
 #include "ObstacleQueue.h"
 #include "CollisionListener.h"
+//#include <SDL_ttf.h>
 
 /*!
  * @brief Represents the main application class.
@@ -46,6 +47,7 @@ public:
 	// Physics
 	b2World* m_world; //!< The Box2D physics world.
 	b2Vec2 m_gravity; //!< The gravity vector.
+
 	Player m_player; //!< The player object.
 
 	bool m_bRestart; //!< Flag indicating whether the game should be restarted.
