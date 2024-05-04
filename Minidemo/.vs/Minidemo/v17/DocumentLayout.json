@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Score.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Score.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\ObstacleQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:ObstacleQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Score.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Score.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\CollisionListener.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:CollisionListener.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\ObstacleQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:ObstacleQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\CollisionListener.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:CollisionListener.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Obstacle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Obstacle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Ground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Obstacle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Obstacle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Ground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A18C2CAC-A20B-4298-880D-6250C08190AD}|Minidemo.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Score.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Score.cpp",
+              "RelativeDocumentMoniker": "Score.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Score.cpp",
+              "RelativeToolTip": "Score.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T15:26:03.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Score.h",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Score.h",
+              "RelativeDocumentMoniker": "Score.h",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Score.h",
+              "RelativeToolTip": "Score.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T15:23:52.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CollisionListener.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\CollisionListener.cpp",
+              "RelativeDocumentMoniker": "CollisionListener.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\CollisionListener.cpp",
+              "RelativeToolTip": "CollisionListener.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T06:10:18.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CollisionListener.h",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\CollisionListener.h",
+              "RelativeDocumentMoniker": "CollisionListener.h",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\CollisionListener.h",
+              "RelativeToolTip": "CollisionListener.h",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwB0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T06:09:29.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObstacleQueue.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\ObstacleQueue.cpp",
+              "RelativeDocumentMoniker": "ObstacleQueue.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\ObstacleQueue.cpp",
+              "RelativeToolTip": "ObstacleQueue.cpp",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T20:30:14.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObstacleQueue.h",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\ObstacleQueue.h",
+              "RelativeDocumentMoniker": "ObstacleQueue.h",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\ObstacleQueue.h",
+              "RelativeToolTip": "ObstacleQueue.h",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T17:34:18.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Obstacle.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Obstacle.cpp",
+              "RelativeDocumentMoniker": "Obstacle.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Obstacle.cpp",
+              "RelativeToolTip": "Obstacle.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T17:08:18.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Obstacle.h",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Obstacle.h",
+              "RelativeDocumentMoniker": "Obstacle.h",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Obstacle.h",
+              "RelativeToolTip": "Obstacle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T17:04:20.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ground.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Ground.cpp",
+              "RelativeDocumentMoniker": "Ground.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Ground.cpp",
+              "RelativeToolTip": "Ground.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T16:20:32.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ground.h",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Ground.h",
+              "RelativeDocumentMoniker": "Ground.h",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Ground.h",
+              "RelativeToolTip": "Ground.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T16:18:14.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-01T06:46:29.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.h",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-01T06:41:56.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Application.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Application.cpp",
+              "RelativeDocumentMoniker": "Application.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Application.cpp",
+              "RelativeToolTip": "Application.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwDkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-01T06:04:24.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.h",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Application.h",
+              "RelativeDocumentMoniker": "Application.h",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\Application.h",
+              "RelativeToolTip": "Application.h",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-01T04:59:20.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\JS\\Koulu\\Metropolia_ICT\\Vuosi_3\\CPlusPlusJatkokurssi\\Tehtavat\\Github_Tehtavat\\CPP-jatkokurssi\\Minidemo\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T19:36:59.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
